@@ -1,0 +1,31 @@
+.rounded-img {
+  border-radius: 32px;
+}
+
+.letter-spacing-7 {
+  letter-spacing: 0.7px;
+}
+
+.square-3 {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.card-top-left-right-radius {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.top-nav {
+  top: 82px;
+}
+
+.h-100vh-nav {
+  height: calc(100vh - 82px);
+}
+/*# sourceMappingURL=all.css.map */
