@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-lg navbar-light py-2">
         <a class="navbar-brand" href="#"><img src="https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg"
             alt="拼拼Logo" width="111" height="40"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler border-0 p-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,9 +35,9 @@
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">我有個大膽的想法</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <button class="btn btn-sm text-secondary bg-warning rounded-pill px-4 mx-2" type="submit">登入</button>
-            <button class="btn btn-sm btn-outline-secondary border-2 rounded-pill px-4 mx-2" type="submit">註冊</button>
+          <form class="d-flex justify-content-end">
+            <button class="btn btn-sm btn-warning btn-warning-hover rounded-pill px-4 mx-3" type="submit">登入</button>
+            <button class="btn btn-sm btn-outline-secondary btn-outline-secondary-hover border-2 rounded-pill px-4 mx-3" type="submit">註冊</button>
           </form>
         </div>
       </nav>
@@ -98,15 +98,15 @@
               專案募資中！ <br>
               <span class="fw-bold">2021/06/14 23:59</span> 募資結束前，您都可以贊助我們！
             </div>
-            <button class="btn btn-warning rounded-pill btn-lg mb-2">贊助專案</button>
+            <button class="btn btn-warning btn-warning-hover rounded-pill btn-lg mb-2">贊助專案</button>
             <div class="row g-2">
               <div class="col-6 col-md-7">
-                <button class="btn btn-outline-secondary rounded-pill btn-lg border-2 w-100">
+                <button class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill btn-lg border-2 w-100">
                   <i class="fas fa-heart custom-heart">追蹤專案</i>
                 </button>
               </div>
               <div class="col">
-                <button class="btn btn-outline-secondary rounded-pill btn-lg border-2 w-100">
+                <button class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill btn-lg border-2 w-100">
                   <i class="fas fa-share-alt">分享</i>
                 </button>
               </div>
@@ -142,9 +142,9 @@
   </div>
   <!-- 下方主要區塊  -->
   <div class="container my-4">
-    <div class="row">
+    <div class="row g-md-5">
       <!-- 左邊區塊 -->
-      <div class="col-8">
+      <div class="col-lg-8">
         <div class="tab-content mb-5">
           <!-- 專案介紹 -->
           <div class="tab-pane fade active show" id="info" role="tabpanel">
@@ -505,6 +505,74 @@
             </ul>
           </div>
         </div>
+        <!-- 手機版右邊區塊 -->
+        <div class="d-block d-lg-none mb-5">
+          <div>
+            <div class="border rounded-3 p-3 mb-2">
+              <div class="d-flex align-items-center">
+                <img class="rounded-pill border-2 border-warning border" src="https://hexschool.github.io/boootstrap5WebLayout/assets/store_img.jpg" alt="">
+                <div class="ps-3">
+                  <h4 class="letter-spacing-7 fs-5">缺錢事務所</h4>
+                  <p class="text-secondary letter-spacing-7">已發起<strong>1</strong>個專案</p>
+                </div>
+              </div>
+              <p class="fs-6 letter-spacing-7 my-3">需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                  <a class="btn-secondary rounded-circle text-center me-2 square-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                  <a class="btn-secondary rounded-circle text-center me-2 square-3" href="#"><i class="fab fa-youtube text-white"></i></a>
+                </div>
+                <button class="btn btn-sm btn-outline-secondary btn-outline-secondary-hover rounded-pill px-3 "><i class="far fa-comment-dots me-2 text-secondary"></i>聯絡我們</button>
+              </div>
+            </div>
+            <h3 class="border-start border-end border-4 border-warning fs-5 rounded bg-light text-center p-2 mt-4 letter-spacing-7 fw-bold">選擇一個方案來支持</h3>
+            <div class="card card-top-left-right-radius mt-3">
+              <img class="card-top-left-right-radius w-100" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="廣告團購優惠">
+              <div class="card-body pt-2">
+                <div class="d-flex justify-content-between align-content-center border-bottom p-1 mb-3 text-secondary">
+                  <span class="fs-6">限時優惠</span>
+                  <span class="fs-6">2 days 20:05:20</span>
+                </div>
+                <h2 class="letter-spacing-7 fw-bold fs-5">買一送一，只有兩百組別錯過</h2>
+                <p class="fw-bolder fs-4 mb-0">NT$ 1600</p>
+                <span class="badge bg-secondary text-light px-3 me-1">已被贊助88次</span>
+                <span class="badge bg-secondary text-white px-3 me-1">限量<span class="text-warning">200</span>個</span>
+                <p class="letter-spacing-7 text-secondary text-justify mt-2">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                <a class="btn btn-warning btn-warning-hover rounded-pill fw-bold w-100" href="#">贊助此專案</a>
+              </div>
+            </div>
+            <div class="card card-top-left-right-radius mt-3">
+              <img class="card-top-left-right-radius w-100" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="廣告團購優惠">
+              <div class="card-body pt-2">
+                <div class="d-flex justify-content-between align-content-center border-bottom p-1 mb-3 text-secondary">
+                  <span class="fs-6">限時優惠</span>
+                  <span class="fs-6">2 days 20:05:20</span>
+                </div>
+                <h2 class="letter-spacing-7 fw-bold fs-5">買一送一，只有兩百組別錯過</h2>
+                <p class="fw-bolder fs-4 mb-0">NT$ 1600</p>
+                <span class="badge bg-secondary text-light px-3 me-1">已被贊助88次</span>
+                <span class="badge bg-secondary text-white px-3 me-1">限量<span class="text-warning">200</span>個</span>
+                <p class="letter-spacing-7 text-secondary text-justify mt-2">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                <a class="btn btn-warning btn-warning-hover rounded-pill fw-bold w-100" href="#">贊助此專案</a>
+              </div>
+            </div>
+            <div class="card card-top-left-right-radius mt-3">
+              <img class="card-top-left-right-radius w-100" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="廣告團購優惠">
+              <div class="card-body pt-2">
+                <div class="d-flex justify-content-between align-content-center border-bottom p-1 mb-3 text-secondary">
+                  <span class="fs-6">限時優惠</span>
+                  <span class="fs-6">2 days 20:05:20</span>
+                </div>
+                <h2 class="letter-spacing-7 fw-bold fs-5">買一送一，只有兩百組別錯過</h2>
+                <p class="fw-bolder fs-4 mb-0">NT$ 1600</p>
+                <span class="badge bg-secondary text-light px-3 me-1">已被贊助88次</span>
+                <span class="badge bg-secondary text-white px-3 me-1">限量<span class="text-warning">200</span>個</span>
+                <p class="letter-spacing-7 text-secondary text-justify mt-2">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                <a class="btn btn-warning btn-warning-hover rounded-pill fw-bold w-100" href="#">贊助此專案</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- 表單 -->
         <div class="d-flex justify-content-center">
           <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_heart.svg" alt="合作圖標">
@@ -536,7 +604,7 @@
         </form>
       </div>
       <!-- 右邊區塊 -->
-      <div class="col-4">
+      <div class="col-lg-4 d-none d-lg-block">
         <div class="position-sticky overflow-scroll top-nav h-100vh-nav">
           <div class="border rounded-3 p-3 mb-2">
             <div class="d-flex align-items-center">
