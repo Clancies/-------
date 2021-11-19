@@ -8,6 +8,14 @@
     color: #858377;
     border-color: #ffc107;
 }
+.progress-img{
+    width: 135px;
+    height: 132px;
+    @media (min-width:576px) {
+        width: 220px;
+        height: 168px;
+    }
+}
 .rounded-img{
     border-radius: 32px;
 }
