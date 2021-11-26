@@ -1,3 +1,6 @@
+.btn-warning {
+    color: #494846;
+  }
 .btn-warning-hover:hover{
     background-color: #ff785e;
     color: #fff;
@@ -7,6 +10,14 @@
     background-color: #ffc107;
     color: #858377;
     border-color: #ffc107;
+    .custom-heart{
+        color: #ff785e;
+    }
+}
+.btn-outline-secondary:hover{
+    .custom-comment-dots{
+        color: #fff;
+    }
 }
 .progress-img{
     width: 135px;
@@ -39,4 +50,19 @@
 }
 .h-100vh-nav{
     height: calc(100vh - 82px);
+}
+.nav-item{
+    .active{
+        font-weight: bold;
+        border-bottom: 2px solid #ffc107;
+    }
+}
+.accordion-item{
+    margin-bottom: 1rem;
+    span{
+        width: 28px;
+    }
+}
+.accordion-body{
+    padding: 1rem 16px 1rem 64px;
 }
